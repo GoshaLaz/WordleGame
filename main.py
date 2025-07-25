@@ -43,3 +43,5 @@ def guess_word():
         
         elif i == attempts - 1:
             print(f"Sorry, you've used all attempts. The word was: {wordToGuess}")
+
+guess_word()
